@@ -19,6 +19,8 @@ public class Game {
 
         Medic assistant = new Medic(260,10,"Doc",5, EnumSuperAbility.HEAL);
 
+        Thor thor = new Thor(280,30,"Thor", EnumSuperAbility.LIGHTNING_STRIKE,3);
+
         Hero[] heroes = {warrior, berserk, magic, doc, assistant};
 
         System.out.println("_____THE GAME_____");

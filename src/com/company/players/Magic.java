@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Magic extends Hero{
     Random random = new Random();
-    private final int increase = random.nextInt(1);
+    private final int increase = random.nextInt(50);
 
     public Magic(int health, int damage, String name, EnumSuperAbility superAbility) {
         super(health, damage, name, superAbility);

@@ -5,7 +5,7 @@ import java.util.Random;
 public class Berserk extends Hero{
     Random random = new Random();
 
-    private final int reverseDamage = random.nextInt(1);
+    private final int reverseDamage = random.nextInt(50);
 
 
     public Berserk(int health, int damage, String name, EnumSuperAbility superAbility) {
